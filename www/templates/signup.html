@@ -1,0 +1,51 @@
+<ion-view class="signup_page" view-title="Sign Up" hide-nav-bar="true">
+  <ion-header-bar>
+    <button class="button button-icon button-clear ion-ios-close-empty" ng-click="goBack()">
+    </button>
+
+    <h1 class="title">Sign Up</h1>
+  </ion-header-bar>
+
+  <ion-content class="padding">
+    <div class="list logo">
+    </div>
+
+    <form name="signupForm" ng-submit="doSignup(signupData)">
+      <!--div class="list">
+        <h2>Registration</h2>
+      </div-->
+      <div class="list">
+          <span class="input-label">* First Name</span>
+          <input type="text"  ng-model="signupData.firstname" required>
+
+          <span class="input-label">* Last Name</span>
+          <input type="text"  ng-model="signupData.lastname" required>
+
+          <span class="input-label">* Address</span>
+          <input type="text"  ng-model="signupData.address" required>
+
+          <span class="input-label">* Telephone</span>
+          <input type="number" ng-model="signupData.telephone" required>
+
+          <span class="input-label">* Post Code</span>
+          <input type="text" ng-model="signupData.postcode" required>
+
+          <span class="input-label">* Email</span>
+          <input type="email" ng-model="signupData.email" required>
+
+          <span class="input-label">* Password</span>
+          <input type="password" ng-model="signupData.password" required>
+
+          <span class="input-label">* Confirm Password</span>
+          <input type="password" ng-model="signupData.confirmpassword" required>
+
+      </div>
+
+      <div class="list">
+          <button class="button button-block button-positive" type="submit">Sign Up</button>
+      </div>
+      <br />
+
+    </form>
+  </ion-content>
+</ion-view>

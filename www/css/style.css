@@ -1,0 +1,214 @@
+
+.pane input {
+    background-color: transparent;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0;
+    color: #222;
+    font-size: 18px;
+    height: 38px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.pane input:focus {
+    border-bottom: 1px solid #387EF5;
+}
+
+/**************************************
+Flash Screen Page
+***************************************/
+
+.flashscreen_page ion-content {
+    padding: 25px;
+}
+
+.flashscreen_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/**************************************
+Sign in Page
+***************************************/
+
+.signin_page ion-content {
+    padding: 25px;
+}
+
+.signin_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.signin_page h2 {
+  color: #387EF5;
+}
+
+.signin_page .col-50 {
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+}
+
+.signin_page a.link_forgotpass {
+  color: #387EF5;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/**************************************
+Sign Up Page
+***************************************/
+.signup_page ion-content {
+    padding: 25px;
+}
+
+.signup_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.signup_page h2 {
+  color: #387EF5;
+}
+
+.signup_page span {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/**************************************
+Forgot Password Page
+***************************************/
+.forgot_page ion-content {
+    padding: 25px;
+}
+
+.forgot_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.forgot_page h2 {
+  color: #387EF5;
+}
+
+.forgot_page span {
+  width: 100%;
+  margin-top: 10px;
+  max-width: none !important;
+}
+
+/**************************************
+Offers Front in Page
+***************************************/
+
+.offersfront_page ion-content {
+    padding: 5px;
+}
+
+.offersfront_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 90px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.offersfront_page ion-content.has-footer {
+  bottom : 130px;
+}
+
+.offersfront_footer.bar-footer {
+  height: 130px !important;
+  background-position: none !important;
+  background-size: 0px !important;
+}
+
+.offersfront_footer .footer_button {
+  height: 45px;
+  margin-top: 75px;
+}
+
+.offersfront_footer .title {
+  height: 70px;
+}
+
+.offersfront_footer .title  .button {
+  height: 60px;
+  font-size: 20px;
+  line-height: 54px;
+}
+
+.offersfront_page .offers_container {
+  text-align: center;
+}
+
+.offersfront_page .offers_container img{
+  width: 300px;
+  height: auto;
+}
+
+/**************************************
+Forgot Password Page
+***************************************/
+.loading_page ion-content {
+    padding: 25px;
+}
+
+.loading_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+/**************************************
+Home Page
+***************************************/
+.home_page ion-content {
+    padding: 25px;
+}
+
+.home_page .logo {
+  background: url("../img/logo.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.home_page .has-tabs, .home_page .bar-footer.has-tabs {
+  top : 100px;
+}

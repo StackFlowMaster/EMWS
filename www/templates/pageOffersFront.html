@@ -1,0 +1,17 @@
+<ion-view class="offersfront_page" view-title="Front Offers" hide-nav-bar="true">
+  <ion-content class="padding">
+    <div class="list logo">
+    </div>
+    <div class="offers_container front_offers" ng-bind-html="offer_html"></div>
+
+
+  </ion-content>
+</ion-view>
+
+<ion-footer-bar align-title="left" class="bar- offersfront_footer">
+    <button class="button button-large button-positive footer_button">{{store_status}}</button>
+
+    <h1 class="title"><button class="button button-large button-assertive"  ng-click="go_home_screen()">ORDER FOOD</button></h1>
+
+    <button class="button button-large icon-left ion-ios-telephone-outline button-positive footer_button">CALL US</button>
+</ion-footer-bar>

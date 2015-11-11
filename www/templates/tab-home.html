@@ -1,0 +1,17 @@
+<ion-view class="home_page" view-title="Menu Page" hide-nav-bar="true">
+  <div class="list logo">
+  </div>
+
+  <ion-content class="">
+    <div class="list">
+      <a ng-repeat="c in cate"
+         href=""
+         class="item item-thumbnail-left">
+
+        <img ng-src="{{ c.image }}">
+        <h2>{{ c.name }}</h2>
+      </a>
+
+    </div>
+  </ion-content>
+</ion-view>
