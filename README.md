@@ -14,12 +14,8 @@ Ionic 1, Cordova, Cordova Plugin, ngCordova, Angualr Factory/Service, iOS Develo
 
 
 # Tech Spec
-cordova push notification plugin
-stripe payment
-paypal plugin
-cordvoa sqlite plugin
-local Storage/session Storage
-cordova geolocation plugin
+cordova push notification plugin, stripe payment, paypal plugin, cordvoa sqlite plugin, local Storage/session Storage, cordova geolocation plugin
 
-<img src="1.png" width="25%" />
-<img src="1.png" width="25%" />
+<img src="1.png" width="30%" />
+<img src="2.png" width="30%" />
+<img src="3.png" width="30%" />
