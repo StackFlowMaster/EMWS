@@ -20,3 +20,6 @@ paypal plugin
 cordvoa sqlite plugin
 local Storage/session Storage
 cordova geolocation plugin
+
+<img src="1.png" width="25%" />
+<img src="1.png" width="25%" />
